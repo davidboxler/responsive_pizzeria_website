@@ -1,5 +1,4 @@
-<img width="10%" src="https://github.com/davidboxler/responsive_pizzeria_website/blob/master/images/logo-horizontal.png" alt="logo-pizzeria" />
-<h1>Compañía de Pizzas</h2>
+<h1><img width="50%" src="https://github.com/davidboxler/responsive_pizzeria_website/blob/master/images/logo-horizontal.png" alt="logo-pizzeria" /> Compañía de Pizzas</h2>
 <h1>Descripción</h1>
 
 <p>
