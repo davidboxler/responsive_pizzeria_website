@@ -8,7 +8,7 @@ vía mail con la agencia en caso de querer sumarse al sistema de franquicias.
 </p> 
 
 ```
-#### Tecnologías utilizadas: 
+Tecnologías utilizadas: 
 
 - HTML5
 - CSS
