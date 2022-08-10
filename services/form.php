@@ -12,7 +12,7 @@ $mensaje .= "Su Localidad es " . $localidad . ",\r\n";
 $mensaje .= "Mensaje " . $_POST['mensaje'] . ",\r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'companiapizzas@gmail.com';
+$para = 'correroPruebas@gmail.com';
 $asunto = 'Sistema de franquiciado';
 
 mail($para, $asunto, utf8_decode($mensaje), $header)
