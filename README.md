@@ -7,7 +7,7 @@ secciones tales como Inicio, Acerca de, Sucursales, Promociones, Comentarios, Se
 vía mail con la agencia en caso de querer sumarse al sistema de franquicias.    
 </p> 
 
-<h3 style='color: red'> Tecnologías utilizadas: </h3>
+<h3> Tecnologías utilizadas: </h3>
 
 <ul>
   <li>HTML5</li>
