@@ -19,7 +19,9 @@ window.addEventListener("scroll", scrollUp);
 var swiper = new Swiper(".home-slider", {
   grabCursor: true,
   loop: true,
+  speed: 500,
   centeredSlides: true,
+  autoplay: true,
   navigation: {
     nextEl: ".carousel-button.next",
     prevEl: ".carousel-button.prev",
@@ -30,7 +32,9 @@ var swiper = new Swiper(".home-slider", {
 var swiper = new Swiper(".promotion-slider", {
   grabCursor: true,
   loop: true,
+  speed: 500,
   centeredSlides: true,
+  autoplay: true,
   navigation: {
     nextEl: ".carousel-button.next",
     prevEl: ".carousel-button.prev",
