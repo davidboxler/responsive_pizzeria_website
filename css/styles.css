@@ -235,73 +235,35 @@ section {
   gap: 2rem;
 }
 .about .content-imgBx {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-.imgBx {
-  width: 500px;
-  height: 500px;
-  background: #000;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-}
-.imgBx input[type="checkbox"] {
+  flex: 1 1 41rem;
   position: relative;
-  width: 500px;
-  height: 500px;
-  appearance: none;
-  outline: none;
-  cursor: pointer;
 }
-.imgBx span {
+.swiper-container {
+  width: 450px;
+  height: 450px;
   position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  pointer-events: none;
-  transform-style: preserve-3d;
+  left: 30%;
+  top: 25%;
+  margin-left: -150px;
+  margin-top: -130px;
 }
-.imgBx span.bg1 {
-  left: 0;
-  background: url(../images/web\ cdp-27.png);
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background: #f2f2f2;
 }
-.imgBx span.bg1::before {
-  content: "";
+.swiper-container .swiper-slide .imgBx {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/web\ cdp-28.png);
-  transform-origin: right;
-  transition: 2s;
-  backface-visibility: hidden;
+  width: 450px;
+  height: 450px;
 }
-.imgBx input[type="checkbox"]:checked ~ span.bg1::before {
-  transform: rotateY(180deg);
-}
-.imgBx span.bg2 {
-  right: 0;
-  background: url(../images/web\ cdp-28.png);
-  background-position-x: 250px;
-}
-.imgBx span.bg2::before {
-  content: "";
+.swiper-container .swiper-slide .imgBx img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/web\ cdp-27.png);
-  background-position-x: 250px;
-  transform-origin: left;
-  transition: 2s;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-}
-.imgBx input[type="checkbox"]:checked ~ span.bg2::before {
-  transform: rotateY(360deg);
+  object-fit: cover;
 }
 .about .content {
   flex: 1 1 41rem;
@@ -693,6 +655,10 @@ footer {
   text-transform: capitalize;
   font-family: Gotham-Book;
 }
+.box__footer .logo {
+  display: flex;
+  justify-content: center;
+}
 .box__footer .logo img {
   width: 180px;
 }
@@ -784,14 +750,6 @@ footer {
   .box__footer a {
     font-size: 1.7rem;
   }
-  .scrollup {
-    right: 1rem;
-  }
-  .about .content-imgBx {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
 }
 @media (max-width: 1399px) {
   .header .navbar a {
@@ -812,14 +770,6 @@ footer {
   }
   .box__footer a {
     font-size: 1.7rem;
-  }
-  .scrollup {
-    right: 2rem;
-  }
-  .about .content-imgBx {
-    display: flex;
-    width: 50%;
-    justify-content: center;
   }
 }
 @media (max-width: 1199px) {
@@ -885,17 +835,6 @@ footer {
   }
   .box__footer a {
     font-size: 1.7rem;
-  }
-  .scrollup {
-    right: 55rem;
-  }
-  .show-scroll {
-    bottom: 10rem;
-  }
-}
-@media (max-width: 1024px) {
-  .scrollup {
-    right: 45rem;
   }
 }
 @media (max-width: 991px) {
@@ -1005,11 +944,6 @@ footer {
   .btn {
     width: auto;
   }
-  .about .content-imgBx {
-    display: flex;
-    width: 85%;
-    justify-content: center;
-  }
   .form-btn-container .btn-file {
     display: initial;
     width: 80%;
@@ -1025,16 +959,19 @@ footer {
   .box__footer a {
     font-size: 1.7rem;
   }
-  .scrollup {
-    right: 35rem;
+  .swiper-container {
+    width: 450px;
+    height: 450px;
+    position: inherit;
+    left: 40%;
+    top: 0;
+    margin-left: -150px;
+    margin-top: -20px;
   }
-  .show-scroll {
-    bottom: 10rem;
-  }
-}
-@media (max-width: 640px) {
-  .scrollup {
-    right: 40rem;
+  .swiper-container .swiper-slide .imgBx {
+    position: absolute;
+    width: 450px;
+    height: 450px;
   }
 }
 @media (max-width: 450px) {
@@ -1131,11 +1068,18 @@ footer {
   .box__footer a {
     font-size: 2.2rem;
   }
-  .scrollup {
-    right: 22rem;
-    font-size: 4.5rem;
+  .swiper-container {
+    width: 350px;
+    height: 350px;
+    position: inherit;
+    left: 42%;
+    top: 0;
+    margin-left: -150px;
+    margin-top: -10px;
   }
-  .show-scroll {
-    bottom: 15rem;
+  .swiper-container .swiper-slide .imgBx {
+    position: absolute;
+    width: 350px;
+    height: 350px;
   }
 }

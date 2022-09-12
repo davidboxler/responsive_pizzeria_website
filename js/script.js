@@ -28,7 +28,7 @@ var swiper = new Swiper(".home-slider", {
   },
 });
 
-/*=============== SHOW HOME SLIDER ===============*/
+/*=============== SHOW PROMOTION SLIDER ===============*/
 var swiper = new Swiper(".promotion-slider", {
   grabCursor: true,
   loop: true,
@@ -38,5 +38,19 @@ var swiper = new Swiper(".promotion-slider", {
   navigation: {
     nextEl: ".carousel-button.next",
     prevEl: ".carousel-button.prev",
+  },
+});
+
+/*=============== CUBE SLIDER ===============*/
+var swiper = new Swiper(".swiper-container", {
+  effect: "cube",
+  autoplay: true,
+  speed: 600,
+  grabCursor: true,
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
   },
 });
