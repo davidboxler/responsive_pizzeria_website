@@ -269,10 +269,11 @@ section {
   flex: 1 1 41rem;
 }
 .about .content p {
-  font-family: Gotham-medium;
-  font-size: 12px;
+  font-family: Gotham-Book;
+  font-size: 14px;
   color: var(--black);
   padding: 1rem 0;
+  font-weight: 600;
   line-height: 1.5;
 }
 .about .content p strong {
