@@ -394,6 +394,21 @@ section {
   height: 8rem;
   background-color: var(--peru);
 }
+.box-title h1,  .box-title h2{
+  font-family: Sanchez-reg;
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--peru);
+  padding: 0 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+  border: 1px solid var(--peru);
+}
+.box-title h1 {
+  margin-bottom: 8rem;
+}
 
 /* ================= PROMOTIONS ================= */
 .promotions {
@@ -973,6 +988,67 @@ footer {
     position: absolute;
     width: 450px;
     height: 450px;
+  }
+  .container__footer {
+    justify-content: center;
+  }
+  .box__footer {
+    padding: 20px;
+  }
+  .box__footer .terms {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 640px) {
+  .about .content-imgBx {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .swiper-container {
+    width: 400px;
+    height: 400px;
+    position: inherit;
+    left: 40%;
+    top: 0;
+    margin-left: -150px;
+    margin-top: -20px;
+  }
+  .swiper-container .swiper-slide .imgBx {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  }
+  .branch_office .title img {
+    width: 12%;
+  }
+  .box-title-img-1 a {
+    width: auto;
+    font-size: 3.5rem;
+  }
+  .box-title-img-2 a {
+    width: auto;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    margin-left: 0;
+  }
+  .promotions .slide {
+    min-height: 45vh;
+  }
+  .carousel-button.next,
+  .carousel-button.prev {
+    top: initial;
+    bottom: -2rem;
+  }
+  .container__footer {
+    display: block;
+  }
+  .box__footer {
+    padding: 20px;
+  }
+  .box__footer .terms {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 450px) {

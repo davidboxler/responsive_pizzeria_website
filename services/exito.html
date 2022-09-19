@@ -1,29 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Compañia de Pizzas</title>
-</head>
-<body>
-     <!--====================== HEADER ===========================-->
-     <section class="header">
-        <a href="#" class="logo"
-          ><i class="fas fa-utensils"></i> Compañia de Pizzas
-        </a>
-      </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <section>
-        <h1>Gracias por tu mensaje</h1>
-        <h2>Te estaremos contactando a la brevedad</h2>
-      </section>
+    <!-- Descripcion -->
+    <meta
+      name="description"
+      content="Compania de pizzas, el mejor lugar para ordenar tu pizza favorita, masa casera y crujiente con ingredientes de primer nivel, salsa justa y queso abudante. ¿Que esperas para probarlas?"
+    />
+    <!-- Palabras Clave -->
+    <meta
+      name="keywords"
+      content="pizzas, pizzeria, empanadas, delivery, compania de pizzas, pizzas caseras, ofertas especiales, promociones, pedi tu pizza favorita, gaseosas, pizza a domicilio"
+    />
+    <!-- Librerias -->
+    <link rel="stylesheet" href="../css/font-awesome.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Icono -->
+    <link rel="icon" href="../images/logo.png" />
+    <title>Compañía de Pizzas - Del horno a tu mesa</title>
+  </head>
+  <body>
+    <!--====================== HEADER ===========================-->
+    <section class="header">
+      <a href="#" class="logo"
+        ><img src="../images/logo-horizontal.png" alt="image-logo-restaurant"
+      /></a>
 
-      <script>
-        setTimeout(function () {
-          window.location.replace("index.html");
-        }, 1000);
-      </script>
-</body>
+      <nav class="navbar">
+        <a href="#home">inicio</a>
+        <a href="#about">sobre nosotros</a>
+        <a href="#branch_office">sucursales</a>
+        <a href="#services">productos</a>
+        <a href="#promotions">promociones</a>
+        <a href="#blogs">comentarios</a>
+        <a href="#contact">contacto</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <section
+      class="branch_office"
+      style="background: url(../images/web\ cdp-08.png)"
+    >
+    <div class="box-title">
+      <h1>Gracias por tu mensaje</h1>
+      <h2>Te estaremos contactando a la brevedad</h2>
+    </div>
+    </section>
+
+    <footer>
+      <div class="container__footer">
+        <div class="box__footer">
+          <div class="logo">
+            <img src="../images/logo-horizontal.png" alt="image-logo-restaurant" />
+          </div>
+          <p class="terms">
+            <img src="../images/logo-05.png" alt="image-logo-diez-años" />
+          </p>
+        </div>
+        <div class="box__footer__container">
+          <div class="box__footer">
+            <h2>Servicios</h2>
+            <a href="#promotions">Pizzas</a>
+            <a href="#promotions">Empanadas</a>
+            <a
+              href="https://api.whatsapp.com/send?phone=543492585490&app=facebook&entry_point=page_cta"
+              target="_blank"
+              >Delivery</a
+            >
+          </div>
+
+          <div class="box__footer">
+            <h2>Compañia</h2>
+            <a href="#home">inicio</a>
+            <a href="#about">sobre nosotros</a>
+            <a href="#branch_office">sucursales</a>
+            <a href="#services">productos</a>
+            <a href="#promotions">promociones</a>
+            <a href="#blogs">comentarios</a>
+            <a href="#contact">contacto</a>
+          </div>
+
+          <div class="box__footer">
+            <h2>Redes Sociales</h2>
+            <a
+              href="https://www.facebook.com/compania.depizzas"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-square"></i> Facebook</a
+            >
+            <a
+              href="https://api.whatsapp.com/send?phone=543492585490&app=facebook&entry_point=page_cta"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i> Whatsapp</a
+            >
+            <a
+              href="https://www.instagram.com/compania_de_pizzas/"
+              target="_blank"
+              ><i class="fab fa-instagram-square"></i> Instagram</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="box__copyright">
+        <hr />
+        <p>Todos los derechos reservados © 2022 <b>DBev Art</b></p>
+      </div>
+    </footer>
+
+    <script>
+      setTimeout(function () {
+        window.location.replace("../index.html");
+      }, 1000);
+    </script>
+  </body>
 </html>
