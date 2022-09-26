@@ -381,8 +381,8 @@ section {
   border: 1px solid var(--peru);
 }
 .container-img .what_do_img_1 {
-  width: 180%;
-  margin-left: 100%;
+  width: 90%;
+  margin-left: 35%;
   justify-self: center;
 }
 .container-img .what_do_img_2 {
@@ -787,6 +787,9 @@ footer {
   .box__footer a {
     font-size: 1.7rem;
   }
+  .container-img .what_do_img_1 {
+    width: 87%;
+  }
 }
 @media (max-width: 1199px) {
   section {
@@ -817,7 +820,7 @@ footer {
     margin-left: 5rem;
   }
   .container-img .what_do_img_1 {
-    margin-left: 90%;
+    width: 87%;
   }
   .container-img .what_do_img_2 {
     width: 160%;
@@ -865,6 +868,10 @@ footer {
   }
   .form-btn-container .btn-file {
     width: 80%;
+  }
+  .container-img .what_do_img_1 {
+    width: 87%;
+    margin-left: 21%;
   }
 }
 @media (max-width: 768px) {
@@ -929,7 +936,8 @@ footer {
     margin-left: 3rem;
   }
   .container-img .what_do_img_1 {
-    margin-left: 90%;
+    width: 90%;
+    margin-left: 20%;
   }
   .container-img .what_do_img_2 {
     width: 160%;
@@ -1022,6 +1030,10 @@ footer {
   .branch_office .title img {
     width: 12%;
   }
+  .container-img .what_do_img_1 {
+    width: 87%;
+    margin-left: 25%;
+  }
   .box-title-img-1 a {
     width: auto;
     font-size: 3.5rem;
@@ -1084,7 +1096,8 @@ footer {
     margin-left: 0;
   }
   .container-img .what_do_img_1 {
-    margin-left: 90%;
+    width: 85%;
+    margin-left: 30%;
   }
   .container-img .what_do_img_2 {
     width: 160%;

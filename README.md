@@ -7,6 +7,8 @@ secciones tales como Inicio, Acerca de, Sucursales, Promociones, Comentarios, Se
 vía mail con la agencia en caso de querer sumarse al sistema de franquicias.    
 </p> 
 
+<img width="100%" src="" alt="banner-pizzeria" />
+
 <h3> Tecnologías utilizadas: </h3>
 
 <ul>
