@@ -15,7 +15,6 @@ vía mail con la agencia en caso de querer sumarse al sistema de franquicias.
   <li>HTML5</li>
   <li>CSS</li>
   <li>JavaScript</li>
-  <li>PHP</li>
   <li>Git</li>
 </ul>
 
